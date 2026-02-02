@@ -1,5 +1,5 @@
 {
-  "name": "to-do-list",
+  "name": "book-store-backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A clean, OOP-based backend for a Book Store using Node.js, Express, and TypeScript.",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
