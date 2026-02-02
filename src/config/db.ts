@@ -10,7 +10,6 @@ export class Database {
 
   private async connect() {
     try {
-      // Try local connection first with short timeout
       await mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/bookstore_oop', {
         serverSelectionTimeoutMS: 2000
       });

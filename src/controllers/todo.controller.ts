@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { TodoService } from '../service/todo.service';
+import { TodoService } from '../services/todo.service';
 import { catchAsync } from '../utils/catchAsync';
 
 const service = new TodoService();
